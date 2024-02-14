@@ -4,4 +4,4 @@ title: Lerntagebuch Bibliotheks- und Archivinformatik (BAIN)
 
 ## Willkommen zu meinem Lerntagebuch
 
-Ich freue mich, dass Du da bist. Ich schreibe hier über meine Erfahrungen im Modul **Bibliotheks- und Archivinformatik**.
+In diesem Blog schreibe ich über meine Erfahrungen, Erfolge, Misserfolge und Learnings im Modul **Bibliotheks- und Archivinformatik**. Viell Spass beim Lesen. 
