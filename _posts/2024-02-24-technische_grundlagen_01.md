@@ -1,3 +1,8 @@
+---
+title: "1. Vorlesung - Technische Grundlagen 01"
+date: 2024-02-14
+---
+
 ## Liebes Tagebuch
 Ein wenig hast du mich mit dem letzten Blogbeitrag nun schon kennengelernt. Ab jetzt geht es inhaltlich zur Sache! 😊 
 ## Organisatorisches
