@@ -16,7 +16,8 @@ Dublin Core ist ein weiterer Metadatenstandard. Anders als MARC21 wird er aber a
 ### BIBFRAME
 MARC21 ist sehr stark medienzentriert. Dies ist aufgrund der stärkeren digitalen Vernetzung der Informationswelt nicht mehr zeitgemäss. Aus diesem Grund hat die LOC im Jahr 2011 das Datenmodell Bibliographic Framework Initiative (BIBFRAME) begründet. So sollen Katalogisate auch in Zukunft austauschbar sein und bibliografische Daten sinnvoll erfasst werden können (Quelle).  
 BIBFRAME lehnt an die Funcitional Requirements for Bibliographic Records (FRBR) an. Ähnlich wie FRBR unterscheidet BIBFRAME zwischen work, instance, item. Work ist eine Zusammenführung von Werk und Expression im FRBR-Modell. Instance entspricht der Manifestation und das item ist das Pendant zum Item (siehe auch Abbildung).
- 
+![image](https://github.com/nathaliewic/lerntagebuch/assets/160014832/8dfbecd7-49bf-40d2-a123-56efaedb83a6)
+
 ### Ressource Description and Access (RDA)
 Ein weiteres bibliografisches Regelwerk ist RDA. Darin wird sehr konkret beschrieben, wie die einzelnen Angaben der Medien erfasst werden sollen. Die deutsche Nationalbibliothek hat die Implementierung des Regelwerks in den Jahren 2012 bis 2016 im DACH-Raum geleitet (Quelle). 
 
@@ -24,8 +25,12 @@ Ein weiteres bibliografisches Regelwerk ist RDA. Darin wird sehr konkret beschri
 Abschliessend haben wir uns mit der Open Source Bibliothekssoftware KOHA beschäftigt. KOHA ist eine umfassende Bibliothekssoftware, die von ca. 600 Personen mitgestaltet wird. Über OpenHub lässt sich erkennen wie ‘gesund’ das Projekt ist. Bei Kommerziellen Anbietern ist ein Indikator für die Popularität die Verkaufszahlen, bei Open Source Projekten kann u.a. OpenHub aufschluss darüber geben. Mit den Angaben aus Open Hub lässt sich schliessen, dass mit 600 Involvierten viele Personen am Projekt beteiligt sind und die Year-over-Year-Commits (Y-O-Y) konstant bleiben. Das deutet daraufhin, dass immer noch aktiv am Code gearbeitet wird. 
 
 Die Software selbst gilt als Profisoftware. Sie richtet sich also an das Fachpersonal und ist auf eine schnelle Arbeitsweise ausgerichtet (Tastenkürzel, etc.). Wie bei kommerziellen Produkten sind alle notwendigen Funktionen für den bibliothekarischen Alltag vorhanden. Diese reichen vom Erstellen eines Nutzenden über die Erstellung von Mahnungen bis hin zur Erwerbung von Medien. 
- 
+ ![image](https://github.com/nathaliewic/lerntagebuch/assets/160014832/af972354-cbc5-4219-b42e-5d6501063e2d)
+
 Aus persönlichem Interesse habe ich die Katalogisierungsoberfläche von ALMA und KOHA verglichen. Der kurze Vergleich mit ALMA zeigt, dass die Katalogisierungsoberfläche ähnlich aufgebaut sind. Im Vergleich zu ALMA ist KOHA insofern benutzendenfreundlicher, als dass darin die Felder kurz beschrieben werden. Bei ALMA erhält man lediglich eine aufsteigende Liste mit den Feldern. 
+![image](https://github.com/nathaliewic/lerntagebuch/assets/160014832/271170a0-940e-40e1-9bba-16efdfd6e1a4)
+![image](https://github.com/nathaliewic/lerntagebuch/assets/160014832/ad110d48-00f8-4e65-8b0e-a5ce01796951)
+
   
 Abschliessend erhält man in der Demo von KOHA auch einen Einblick in die Softwarekonfiguration. Darin können diverse Systemparameter (bspw. Felder der Katalogisierungsvorlagen) angepasst werden. Dies ist sehr interessant, weil ich an meiner Arbeitsstelle in der wir mit ALMA arbeiten, keinen solchen Einblick ‘hinter die Kulissen habe’. 
 ## Offene Fragen zum Schluss
