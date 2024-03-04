@@ -1,16 +1,35 @@
 ---
-title: "2. Vorlesung - Technische Grundlagen 02"
-date: 2024-02-14
+title: "3. Vorlesung - Funktion und Aufbau von Bibliothekssystemen"
+date: 2024-02-27
 ---
 
 ## Liebes Tagebuch
-Direkt am Nachmittag vom 14.02.2024 ging es weiter mit den technischen Grundlagen. Am Nachmittag haben wir uns zunächst mit Library Carpentry befasst. Diese bieten vielseitige Lehrmaterialien für IT-Fähigkeiten an. Insbesondere interessant ist das für mich als Person, die im Bibliothekswesen arbeitet, weil die Inhalte mitunter auf das Bibliothekswesen ausgerichtet sind. Ein Funfact zur heutigen Vorlesung ist, dass ich eine neue Abkürzung gelernt habe: Wusstest du dass man unter GLAM Galleries, Libraries, Archives und Museums versteht? Ich auch nicht, umso toller finde ich die Abkürzung, da v.a. Bibliotheken und Archive oftmals ein verstaubtes Image haben. 
-## Shell-Befehle im Codespace
-Naja, zurück zum eigentlichen Thema. Wir haben dann eine Übung zu den Shell-Befehlen gemacht. Nach dem das Modul Architektur von Informationssystem ein wenig mehr als ein Jahr her ist und ich in der Zwischen zeit die Befehle kaum benötigte, war es für mich sehr sinnvoll diese noch einmal zu repetieren. Positiv überrascht war ich davon, dass ich mich an viele der Begriffe noch erinnern konnte. PWD gehörte aber beispielsweise nicht dazu, umso besser diesen Befehl nochmal in die Erinnerung zu rufen. Ausserdem habe ich wieder mal gelernt, dass man aus Fehlern sehr gut lernt. Aus Versehen bin ich bei der Übung nämlich immer wieder ins Root-Verzeichnis geraten und von da an nicht mehr weiter. Mit dem Befehl cd .. habe ich mich dann, nach einem Neustart des Codespaces, wieder zurechtgefunden. Ansonsten hat die Übung reibungslos funktioniert und die Arbeit mit dem Codespace war sehr angenehm.
-## Reular Expressions
-Nach dieser Übung haben wir einen kurzen Input zur Regular Expressions erhalten. Allzu viel kann ich mir darunter noch nicht vorstellen. Aber es scheint u.a. darum zu gehen Texte gezielt nachbearbeiten zu können und man soll dabei manuelle Arbeit sparen. Diesbezüglich muss ich mich in Zukunft noch beschäftigen. 
+Diese Vorlesungseinheit handelte von Metadatenstandards, Bibliotheksregelwerken, Datenformate und Bibliothekssystemen. 
 
-## Git
-Als nächstes haben wir uns mit Git und der Unterscheidung von Git zu Github und von Github zu Gitlab beschäftigt. Git bildet sowohl für Github als auch für Gitlab die Grundlage. Es handelt sich bei Git um eine Open Source Software, die es schon lange vor Github/Gitlab gab. Entwickelt wurde sie von Linus Torvalds, dem Begründer von Linux. Git bietet einen Versionsüberblick an. Jede Änderung wird erfasst und kann zurückverfolg werden. Ausserdem wird mit einer Commit Message jeweils beschrieben, welche Änderungen vorgenommen wurden. Dass dieses Feature sehr nützlich ist habe ich bereits im letzten Semester, bei einer Gruppenarbeit, gemerkt. Insbesondere wenn mehrere Personen an einem Projekt arbeiten, ist es hilfreich, wenn man mittels der Commit Message einen schnellen Überblick über die Änderungen erhält.
-Github und Gitlab haben viele Ähnlichkeiten. Dies ist darauf zurückzuführen, dass beide auf Git basieren, also der gleichen Software. Somit basieren sie auch auf den gleichen Softwarekonzepten. Für mich interessant ist, dass man die Repositories sowohl mit Github als auch mit Gitlab öffnen kann.
-Zum Schluss konnten wir unseren Blog (also dich) einrichten. Diese Zeit habe ich genutzt, um mittels GitHub und der Vorlage von Herrn Lohmeier mit der Aufsetzung des Blogs zu starten. Dies hat nach anfänglichen Schwierigkeiten gut funktioniert. 
+## Metadatenstandards
+### MARC21 
+Zu Beginn haben wir uns mit dem Metadatenstandard MARC21 beschäftigt, welcher 1999 von der Library of Congress (LOC) entwickelt wurde. Das Dateiformat von MARC21 kann marc (.mrc) oder auch XML codiert sein (.xml ). Bei .mrc-Dateien gilt es zu beachten, dass diese nicht ohne weiteres d.h. ohne geeignete Software geöffnet werden können. Eine Möglichkeit diese Dateien auszulesen und abzuspeichern ist der Einsatz einer Bibliothekssoftware (siehe auch Abschnitt Bibliothekssoftware KOHA).  
+MARC21 zeichnet sich durch Felder aus. Diese Felder reichen von 001 bis 999. Die Felder werden im Bibliothekskontext dafür genutzt die Medien zu beschreiben. Jedes Feld hat seinen eigenen Verwendungszweck. Beispielsweise wird in Feld 100 die Haupteintragung der Person vermerkt, also beispielsweise die Autorin eines Buches. MARC21 wurde seit 1999 immer wieder überarbeitet (insgesamt 37 Updates). Jedoch wurde der Standard nicht grundlegend verändert, sondern eher ergänzt. Aufgrund des langen Bestehens beinhaltet der Standard folglich nicht mehr alle aktuellen Überlegungen. 
+### Dublin Core
+Dublin Core ist ein weiterer Metadatenstandard. Anders als MARC21 wird er aber auch weit über das Bibliothekswesen verwendet. Dublin Core ist simpler und verständlicher aufgebaut, da die Codierung sprechend ist und nicht wie bei MARC21 diverse Felder auswendig gelernt werden müssen.  
+## Regelwerke
+### BIBFRAME
+MARC21 ist sehr stark medienzentriert. Dies ist aufgrund der stärkeren digitalen Vernetzung der Informationswelt nicht mehr zeitgemäss. Aus diesem Grund hat die LOC im Jahr 2011 das Datenmodell Bibliographic Framework Initiative (BIBFRAME) begründet. So sollen Katalogisate auch in Zukunft austauschbar sein und bibliografische Daten sinnvoll erfasst werden können (Quelle).  
+BIBFRAME lehnt an die Funcitional Requirements for Bibliographic Records (FRBR) an. Ähnlich wie FRBR unterscheidet BIBFRAME zwischen work, instance, item. Work ist eine Zusammenführung von Werk und Expression im FRBR-Modell. Instance entspricht der Manifestation und das item ist das Pendant zum Item (siehe auch Abbildung).
+ 
+### Ressource Description and Access (RDA)
+Ein weiteres bibliografisches Regelwerk ist RDA. Darin wird sehr konkret beschrieben, wie die einzelnen Angaben der Medien erfasst werden sollen. Die deutsche Nationalbibliothek hat die Implementierung des Regelwerks in den Jahren 2012 bis 2016 im DACH-Raum geleitet (Quelle). 
+
+## Bibliothekssoftware - KOHA 
+Abschliessend haben wir uns mit der Open Source Bibliothekssoftware KOHA beschäftigt. KOHA ist eine umfassende Bibliothekssoftware, die von ca. 600 Personen mitgestaltet wird. Über OpenHub lässt sich erkennen wie ‘gesund’ das Projekt ist. Bei Kommerziellen Anbietern ist ein Indikator für die Popularität die Verkaufszahlen, bei Open Source Projekten kann u.a. OpenHub aufschluss darüber geben. Mit den Angaben aus Open Hub lässt sich schliessen, dass mit 600 Involvierten viele Personen am Projekt beteiligt sind und die Year-over-Year-Commits (Y-O-Y) konstant bleiben. Das deutet daraufhin, dass immer noch aktiv am Code gearbeitet wird. 
+
+Die Software selbst gilt als Profisoftware. Sie richtet sich also an das Fachpersonal und ist auf eine schnelle Arbeitsweise ausgerichtet (Tastenkürzel, etc.). Wie bei kommerziellen Produkten sind alle notwendigen Funktionen für den bibliothekarischen Alltag vorhanden. Diese reichen vom Erstellen eines Nutzenden über die Erstellung von Mahnungen bis hin zur Erwerbung von Medien. 
+ 
+Aus persönlichem Interesse habe ich die Katalogisierungsoberfläche von ALMA und KOHA verglichen. Der kurze Vergleich mit ALMA zeigt, dass die Katalogisierungsoberfläche ähnlich aufgebaut sind. Im Vergleich zu ALMA ist KOHA insofern benutzendenfreundlicher, als dass darin die Felder kurz beschrieben werden. Bei ALMA erhält man lediglich eine aufsteigende Liste mit den Feldern. 
+  
+Abschliessend erhält man in der Demo von KOHA auch einen Einblick in die Softwarekonfiguration. Darin können diverse Systemparameter (bspw. Felder der Katalogisierungsvorlagen) angepasst werden. Dies ist sehr interessant, weil ich an meiner Arbeitsstelle in der wir mit ALMA arbeiten, keinen solchen Einblick ‘hinter die Kulissen habe’. 
+## Offene Fragen zum Schluss
+Ist folgende Erläuterung richtig?
+-	BIBFRAME/ RDA = Regelwerke
+-	MARC21 / Dublin Core = Metadatenstandards
+-	XML, .mrc = Dateiformate
