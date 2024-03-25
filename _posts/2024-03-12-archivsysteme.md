@@ -4,7 +4,7 @@ date: 2024-03-12
 ---
 
 
-# Liebes Tagebuch 
+## Liebes Tagebuch 
 
 Verteilt auf zwei Termine haben wir die Funktion und den Aufbau von Archivsystemen genauer betrachtet, sowie das Datenformat EAD genauer unter die Lupe genommen und mit ArchivesSpace gearbeitet. Bis zur Einführung von Archivsystemen wurden in Archiven Findbücher eingesetzt. Diese waren handgeschriebene Bücher bzw. Sammelordner. ISAD(G) wurde 1994 eingeführt und im Jahr 2000 leicht überarbeitet. Es handelt sich um einen Standard zur archivischen Erschliessung, welches auf einem hierarchischen Modell basiert. Ausserdem wird das Provenienz Prinzip berücksichtigt, d.h. die Verzeichnungseinheiten werden nach den Aktenbildnern geordnet. Im Rahmen dieses Blogbeitrags wird nicht noch weiter auf ISAD(G) eingegangen, da der Standard von einem neuen Standard nämlich Records in Context (RiC) abgelöst wird. 
 ## EAD
