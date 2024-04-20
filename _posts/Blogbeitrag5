@@ -29,7 +29,8 @@ Insgesamt am meisten Punkte können in der Kategorie der Metadaten geholt werden
 -	Typ (gemäss Dublin Core)
 -	Identifier (gemäss Dublin Core)
 -	Klassifizierung (DDC o.ä.)
-Die letzte Kategorie beschäftigt sich mit der Kompatibilität. In untenstehendem Bild werden die unterschiedlichen Aspekte dargestellt:
+Die letzte Kategorie beschäftigt sich mit der Kompatibilität. Im untenstehenden Bild werden die unterschiedlichen Aspekte dargestellt:
+
  ![image](https://github.com/nathaliewic/lerntagebuch/assets/160014832/d21ae74c-d9ca-48da-8567-ab518aceabb6)
 
 Hierbei möchte ich lediglich auf einige Ausgewählte Aspekte eingehen. Zum einen die Lizenz – diese wird als besonders wichtig erachtet (5 Punkte), da es ja darum gehen soll, die Forschung, mit einer entsprechenden Lizenz, öffentlich zugänglich zu machen. Zum Anderen möchte ich XML hervorheben, da XML auch schon Teil der bisherigen Vorlesungen war. Es wird hierbei gefordert, dass die Rückmeldungen des OAI Oberfläche, ‘well formed’ sind. 
