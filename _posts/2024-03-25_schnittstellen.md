@@ -1,6 +1,6 @@
 ---
 title: "6 Metadaten und Schnittstellen II"
-date: 2024-04-05
+date: 2024-05-07
 ---
 
 # Liebes Tagebuch
