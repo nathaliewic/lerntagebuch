@@ -1,6 +1,6 @@
 ---
 title: "8 Suchmaschinen und Discovery Systeme"
-date: 2024-04-05
+date: 2024-28-05
 ---
 
 # Suchmaschinen und Discovery Systeme
