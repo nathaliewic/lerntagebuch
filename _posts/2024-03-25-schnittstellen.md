@@ -1,5 +1,5 @@
 ---
-title: "6 Metadaten und Schnittstellen II"
+title: "7 Metadaten und Schnittstellen II"
 date: 2024-04-05
 ---
 
