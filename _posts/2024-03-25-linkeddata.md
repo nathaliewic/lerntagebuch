@@ -1,6 +1,6 @@
 ---
-title: "8 Suchmaschinen und Discovery Systeme"
-date: 2024-05-28
+title: "Linked Data"
+date: 2024-05-29
 ---
 
 # Suchmaschinen und Discovery Systeme
