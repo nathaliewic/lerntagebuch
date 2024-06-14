@@ -3,7 +3,6 @@ title: "9 Suchmaschinen und Discovery Systeme II"
 date: 2024-05-28
 ---
 
-9 Suchmaschinen und Discovery Systeme II 
 # Liebes Tagebuch
 In dieser Vorlesung haben wir uns mit der Datenintegration und der Konfiguration von VuFind beschäftigt. In diesem Blogbeitrag möchte ich auf die Übungen, die wir in der Vorlesung gemacht haben, eingehen. Mit der Dateintegration sind also verschiedene Dinge zusammengekommen: Die Daten aus Koha, ArchivesSpace und DSpace haben wir nach VuFind integriert. 
 # Übung 1
