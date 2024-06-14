@@ -3,48 +3,30 @@ title: "8 Suchmaschinen und Discovery Systeme II"
 date: 2024-05-28
 ---
 
-# Suchmaschinen und Discovery Systeme
+9 Suchmaschinen und Discovery Systeme II 
 # Liebes Tagebuch
-In dieser Vorlesung haben wir uns mit Suchmaschinen und Discovery-Systemen beschäftigt. Zunächst gab es einen Nachtrag zu den Metadaten und den Schnittstellen. In diesem Blogbeitrag soll es, um das neue Thema gehen. Bei Bedarf kann der Nachtrag hier (BAIN FS24 Zürich 11 Suchmaschinen und Discovery-Systeme (Teil 1/2) - HedgeDoc (gwdg.de))nachgelesen werden.
-Dann ging es an das eigentliche Thema: In einer Live-Demonstration hat uns der Dozent die Installation und Konfiguration von VuFind nähergebracht. Dieser Input war zwar interessant, aber für mich als nicht technik-begeisterte Person schon ein wenig zu technisch. 
-In dem folgen Blogbeitrag soll nun vertieft auf Solr und VuFind eingegangen werden. 
-## Solr
-![image](https://github.com/nathaliewic/lerntagebuch/assets/160014832/c26813cd-ce48-4ead-bb0c-eec413ec0d74)
+In dieser Vorlesung haben wir uns mit der Datenintegration und der Konfiguration von VuFind beschäftigt. In diesem Blogbeitrag möchte ich auf die Übungen, die wir in der Vorlesung gemacht haben, eingehen. Mit der Dateintegration sind also verschiedene Dinge zusammengekommen: Die Daten aus Koha, ArchivesSpace und DSpace haben wir nach VuFind integriert. 
+# Übung 1
+Wie bereits angetönt sollten wir in der 1. Übung die Daten von Koha, ArchivesSpace und DSpace nach VUfind importieren. Der Import der Daten von Koha und OpenRefine hat ohne Probleme funktioniert. Die Umbenennung der Institution hat zuerst jedoch nicht funktioniert, da wir vergessen haben die Zeile auszukommentieren. Als wir das Problem erkannt haben und korrigieren konnten, hat es dann funktioniert. In der Besprechung in der Klasse kam heraus, dass dies oftmals ein Fehler ist, der gemacht wird.  
+Wie in der Auftragsstellung angekündigt wurde bei DSpace eine Fehlermeldung angezeigt. Die Fehlermeldung ist untenstehend ersichtlich. Der Fehler liegt darin, dass das Pflichtfeld ‘ID’ fehlt. Vufind liest marc21 daten und interpretiert die, und schickt die an solr. Solr (Link zur vorherigem Blogbeitrag) löst diese Fehlermeldung aus, da das seitens von Solr, wie erwähnt, ein Pflichtfeld ist.
+ ![image](https://github.com/nathaliewic/lerntagebuch/assets/160014832/cfdbf21d-f3e6-4d7d-8128-4bb745a5888c)
 
-Solr ist ein plattformunabhängiger Such-Server. Die Plattform ist zusammen mit Elasticsearch als Industriestandard bekannt und wird in verschiedenen Anwendungen genutzt. Solr basiert auf Java und gilt als eine der besten Lösungen für die Indizierung und Abfrage von digitalen Informationen aller Art. Solr bietet unter anderem die folgenden Eigenschaften:
--	Facetten-Suche
--	Kategorisierte Suche
--	Volltextsuche
--	Gewichtung von Treffern
--	Synonymsuche
--	Mehrsprachigkeit
-Bevor man Daten nach Solr importiert, wird in der Regel ein Schema definiert. Dieses Schema definiert welche Felder existieren und welche Datentype diese beinhalten dürfen. Diese Einschränkung dient dazu die Datenstruktur zu organisieren und Suchanfragen effizienter zu gestalten.  
-Solr besitzt eine integrierte Suchoberfläche, diese wird normalerweise jedoch nur zu Demonstrationszwecken verwendet. Üblicherweise wird in der Produktionsumgebung eigene Benutzeroberflächen entwickelt oder auf kommerzielle Lösungen eingesetzt. 
+Untenstehend der kontrollierte Datensatz. Darin ist ersichtlich, dass das Feld 001 ein controlfield ist. Dies ist wichtig zu beachten, denn ansonsten entsteht eine Fehlermeldung. In der Vorlesung haben wir (bzw. der Dozent) das Problem manuell behoben. In der Praxis würde man entweder den Export anpassen oder das Feld automatisiert anpassen. 
+ ![image](https://github.com/nathaliewic/lerntagebuch/assets/160014832/82c01125-b081-4760-882d-e39a64977306)
 
-## VuFind
-![image](https://github.com/nathaliewic/lerntagebuch/assets/160014832/a5f81d48-b219-4b15-8e17-a5800d719b36)
+Das Ergebnis der 1. Übung konnte dann in den Institutionen gesehen werden. Wir haben für OpenRefine und Koha eine einzelne Institutionen gemacht, was in der Praxis vermutlich weniger praktikabel ist, weil in der Institution Koha nur ein Datensatz enthalten ist. Dadurch hätte es in diesem Fall vermutlich mehr Sinn gemacht nur eine Institution zu erstellen. 
+ ![image](https://github.com/nathaliewic/lerntagebuch/assets/160014832/f624aa92-2254-45d4-aba1-241d093ceb5a)
 
-Eine Benutzeroberfläche, welche Solr im Backend nutzt, ist VuFind. VuFind ist ein Disvery-System das für Bibliotheken entwickelt wurde. Vufind ist eine Open Source Software und eine Alternative zu kommerziellen Lösungen wie Ex Libris Primo. Ex Libris Primo ist insofern ein guter Vergleich, als dass Primo auch auf Solr basiert.
-## Vergleich Solr und VuFind
-In der Übung während der Vorlesung haben wir VuFind und Solr einander gegenübergestellt. Diese Ergebnisse möchte ich kurz aufgreifen:
--	Wenn man bei VuFind zu tippen beginnt, werden bereits mögliche Suchen vorgeschlagen. Dies verlang eine hohe Performance des Systems, da während des Tippens in kurzer Zeit Vorschläge gemacht werden müssen. Wenn diese Vorschläge zu langsam erscheinen, haben sie keinen Nutzen mehr. 
--	Mit VuFind werden einige Links klickbar. Diese Links können intern von VuFind verlinken oder auch nach ausserhalb führen. 
--	VuFind ermöglicht verschiedene Zusatzfunktionen im Vergleich mit Solr. Mit Vufind können beispielsweise Darstellungen der Datensätze gedruckt oder als E-Mail versendet werden (vergl. untenstehendes Bild).
--	Die Benutzeroberfläche (VuFind) ermöglicht die Darstellung der Daten in verschiedene Sprache. Mit der Einstellung der Sprache werden gewisse Daten (bspw. das Format) in die entsprechende Sprache übersetzt. 
-Die Unterschiede lassen sich darin begründen, dass die beiden Software unterschiedliche Zielgruppen besitzen: Während dem Solr intern von Administratoren genutzt wird, ist VuFind als Benutzeroberfläche an die Endnutzende gerichtet. In untenstehenden Bildern ist dies nochmals ersichtlich. Es ist erkennbar, dass für Solr (erstes Bild) ein gewisses Know-How vorausgesetzt wird. VuFind hingegen setzt kein Vorwissen zum Retrieval voraus. Die einfache Suche gestaltet sich sehr leicht analog zu google. VuFind verfügt aber auch über eine erweiterte Suche und über die Suche in spezifischen Feldern. 
 
-![image](https://github.com/nathaliewic/lerntagebuch/assets/160014832/067aa682-33cd-4eed-bae8-c93efdc1c82d)
+# Übung 2
+Die zweite Übung betraf die Konfiguration von VuFind. Durch die Übung wurden die unterschiedlichen Konfigurationsmöglichkeiten sichtbar. Unsere Gruppe hat diverse Anpassungen am Design vorgenommen. Beispielsweise haben wir das Bild des Mediums auf die linke Seite verschoben. Dies wird mit dem Befehl ‘sidebarOnLeft = true’ erreicht.
+Des Weiteren haben wir das Theme auf bootstrap3 geändert.
+ ![image](https://github.com/nathaliewic/lerntagebuch/assets/160014832/d68cd656-076b-4e0a-adaa-f0b91f1b8cec)
 
-![image](https://github.com/nathaliewic/lerntagebuch/assets/160014832/1c60efcd-7b7c-4b13-8fe1-96134a1752cc)
-  
+Ausserdem haben wir den Tab-Titel geändert. Selbsterklärend würde man in der Praxis einen sinnvolleren Titel wählen. Hinzukommend haben wir auch noch den separator angepasst. Zwischen ‘Suchergebnisse’ und ‘hallihallo :)’ wird neu ein ‘-‘ verwendet. Standard ist das Doppelzeichen.
+ 
+![image](https://github.com/nathaliewic/lerntagebuch/assets/160014832/90b955f8-8af2-4f87-8328-729f1a52474a)
 
-## Eigene Erfahrungen - Vergleich zu Exlibris Primo 
-Abschliessend möchte ich noch einen kurzen Blick auf Ex Libris Primo werfen. Untenstehend ein Bild der Suchoberfläche des Aargauer Bibliotheksnetzes:  
-![image](https://github.com/nathaliewic/lerntagebuch/assets/160014832/69c1bbdc-e056-4bd4-9bb5-4537445e9795)
-
-Wie ersichtlich wird, ist die Suchoberfläche recht ähnlich zu VuFind. Auch die Möglichkeiten der beiden Software sind sehr ähnlich.  
-
-# Quellen:
-https://www.exigo.ch/produkte/extras/solr
-https://pad.gwdg.de/HW9D520ORJu79RoIEueNCw#
+# Marktüberblick - Vergleich von Software
+Im Rahmen dieses Blogbeitrags kann ich nicht umfassend auf den Markt eingehen. Dies würde nämlich den Rahmen sprengen. Was jedoch gesagt werden kann, ist das in den letzten Jahren eine starke Marktkonzentration stattgefunden hat. In Hinblick auf die Zukunft bringt dies diverse Herausforderungen mit sich. Beispielsweise wird von Seiten der Besitzer der Anbieterfirmen das User Tracking ein grosses Interesse sein. Für die Bibliotheken gilt es also in Hinblick auf die Zukunft die Interessen der Nutzenden zu vertreten und sich für den adäquaten Datenschutz einzusetzen. 
 
