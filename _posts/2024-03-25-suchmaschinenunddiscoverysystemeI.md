@@ -1,9 +1,8 @@
 ---
-title: "8 Suchmaschinen und Discovery Systeme"
+title: "8 Suchmaschinen und Discovery Systeme I"
 date: 2024-05-28
 ---
 
-# Suchmaschinen und Discovery Systeme
 # Liebes Tagebuch
 In dieser Vorlesung haben wir uns mit Suchmaschinen und Discovery-Systemen beschäftigt. Zunächst gab es einen Nachtrag zu den Metadaten und den Schnittstellen. In diesem Blogbeitrag soll es, um das neue Thema gehen. Bei Bedarf kann der Nachtrag hier (BAIN FS24 Zürich 11 Suchmaschinen und Discovery-Systeme (Teil 1/2) - HedgeDoc (gwdg.de))nachgelesen werden.
 Dann ging es an das eigentliche Thema: In einer Live-Demonstration hat uns der Dozent die Installation und Konfiguration von VuFind nähergebracht. Dieser Input war zwar interessant, aber für mich als nicht technik-begeisterte Person schon ein wenig zu technisch. 
