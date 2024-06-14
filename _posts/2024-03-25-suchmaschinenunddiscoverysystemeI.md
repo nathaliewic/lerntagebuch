@@ -1,6 +1,6 @@
 ---
 title: "8 Suchmaschinen und Discovery Systeme I"
-date: 2024-05-28
+date: 2024-05-27
 ---
 
 # Liebes Tagebuch
