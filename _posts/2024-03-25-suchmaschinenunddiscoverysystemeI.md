@@ -1,5 +1,5 @@
 ---
-title: "8 Suchmaschinen und Discovery Systeme I"
+title: "8 Suchmaschinen und Discovery-Systeme I"
 date: 2024-05-27
 ---
 
