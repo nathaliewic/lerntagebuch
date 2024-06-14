@@ -3,7 +3,6 @@ title: "Linked Data"
 date: 2024-05-29
 ---
 
-10 Linked Data
 # Liebes Tagebuch
 In dieser letzten Vorlesung haben wir uns mit Linked Data beschäftigt. Dazu haben wir die aktuellen Datenmodelle, Linked Open Usable Data (LOUD) besprochen. Zu LLM zu Bibliotheks- und Archivinformatik und der Metadatenanreicherung haben wir eine Übung gemacht. 
 
