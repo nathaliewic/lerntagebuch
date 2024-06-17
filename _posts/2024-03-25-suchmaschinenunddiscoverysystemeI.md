@@ -1,10 +1,10 @@
 ---
-title: "8 Suchmaschinen und Discovery-Systeme I"
+title: "9 Suchmaschinen und Discovery-Systeme I"
 date: 2024-05-27
 ---
 
 # Liebes Tagebuch
-In dieser Vorlesung haben wir uns mit Suchmaschinen und Discovery-Systemen beschäftigt. Zunächst gab es einen Nachtrag zu den Metadaten und den Schnittstellen. In diesem Blogbeitrag soll es, um das neue Thema gehen. Bei Bedarf kann der Nachtrag hier (BAIN FS24 Zürich 11 Suchmaschinen und Discovery-Systeme (Teil 1/2) - HedgeDoc (gwdg.de))nachgelesen werden.
+in dieser Vorlesung haben wir uns mit Suchmaschinen und Discovery-Systemen beschäftigt. Zunächst gab es einen Nachtrag zu den Metadaten und den Schnittstellen. In diesem Blogbeitrag soll es, um das neue Thema gehen. Bei Bedarf kann der Nachtrag [hier](https://pad.gwdg.de/HW9D520ORJu79RoIEueNCw) nachgelesen werden.
 Dann ging es an das eigentliche Thema: In einer Live-Demonstration hat uns der Dozent die Installation und Konfiguration von VuFind nähergebracht. Dieser Input war zwar interessant, aber für mich als nicht technik-begeisterte Person schon ein wenig zu technisch. 
 In dem folgen Blogbeitrag soll nun vertieft auf Solr und VuFind eingegangen werden. 
 ## Solr
@@ -44,6 +44,6 @@ Abschliessend möchte ich noch einen kurzen Blick auf Ex Libris Primo werfen. Un
 Wie ersichtlich wird, ist die Suchoberfläche recht ähnlich zu VuFind. Auch die Möglichkeiten der beiden Software sind sehr ähnlich.  
 
 # Quellen:
-https://www.exigo.ch/produkte/extras/solr
-https://pad.gwdg.de/HW9D520ORJu79RoIEueNCw#
+(https://www.exigo.ch/produkte/extras/solr)
+(https://pad.gwdg.de/HW9D520ORJu79RoIEueNCw#)
 
