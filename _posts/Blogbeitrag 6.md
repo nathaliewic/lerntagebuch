@@ -1,5 +1,5 @@
 ---
-title: "5 Repository-Software für Publikationen und Forschungsdaten"
+title: "6 Repository-Software für Publikationen und Forschungsdaten"
 date: 2024-04-03
 ---
 
