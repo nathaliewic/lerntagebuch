@@ -1,50 +1,46 @@
 ---
-title: "8 Suchmaschinen und Discovery Systeme"
-date: 2024-05-28
+title: "5 Repository-Software für Publikationen und Forschungsdaten"
+date: 2024-04-19
 ---
 
-# Suchmaschinen und Discovery Systeme
 # Liebes Tagebuch
-In dieser Vorlesung haben wir uns mit Suchmaschinen und Discovery-Systemen beschäftigt. Zunächst gab es einen Nachtrag zu den Metadaten und den Schnittstellen. In diesem Blogbeitrag soll es, um das neue Thema gehen. Bei Bedarf kann der Nachtrag hier (BAIN FS24 Zürich 11 Suchmaschinen und Discovery-Systeme (Teil 1/2) - HedgeDoc (gwdg.de))nachgelesen werden.
-Dann ging es an das eigentliche Thema: In einer Live-Demonstration hat uns der Dozent die Installation und Konfiguration von VuFind nähergebracht. Dieser Input war zwar interessant, aber für mich als nicht technik-begeisterte Person schon ein wenig zu technisch. 
-In dem folgen Blogbeitrag soll nun vertieft auf Solr und VuFind eingegangen werden. 
-## Solr
-![image](https://github.com/nathaliewic/lerntagebuch/assets/160014832/c26813cd-ce48-4ead-bb0c-eec413ec0d74)
+In dieser Unterrichtseinheit haben wir uns mit Repository-Software für Publikationen und Forschungsdaten beschäftigt. Während der Vorlesung haben wir einen Einblick in DSpace und auch in das Repository namens Tore der technischen Universität Hamburg (TUHH) erhalten. 
 
-Solr ist ein plattformunabhängiger Such-Server. Die Plattform ist zusammen mit Elasticsearch als Industriestandard bekannt und wird in verschiedenen Anwendungen genutzt. Solr basiert auf Java und gilt als eine der besten Lösungen für die Indizierung und Abfrage von digitalen Informationen aller Art. Solr bietet unter anderem die folgenden Eigenschaften:
--	Facetten-Suche
--	Kategorisierte Suche
--	Volltextsuche
--	Gewichtung von Treffern
--	Synonymsuche
--	Mehrsprachigkeit
-Bevor man Daten nach Solr importiert, wird in der Regel ein Schema definiert. Dieses Schema definiert welche Felder existieren und welche Datentype diese beinhalten dürfen. Diese Einschränkung dient dazu die Datenstruktur zu organisieren und Suchanfragen effizienter zu gestalten.  
-Solr besitzt eine integrierte Suchoberfläche, diese wird normalerweise jedoch nur zu Demonstrationszwecken verwendet. Üblicherweise wird in der Produktionsumgebung eigene Benutzeroberflächen entwickelt oder auf kommerzielle Lösungen eingesetzt. 
+Im Rahmen dieses Beitrags wird auf die Kriterien des Open Access Repositorium Rankings (OARR) eingegangen. Das OARR rangiert die Repositorien aus dem DACH-Raum. Es wurde mit der Community erstellt und beachtet Studien und Schemata in diseem Bereich. Der Nutzen des OARR besteht darin Best Practices anzuführen und ebenfalls aufzuzeigen, wo Handlungsbedarf gesehen wird. Vorab zu erwähnen ist, dass die Seite des OARR nur über die Wayback-Machine erreichbar ist. Die Kriterien zur Beurteilung eines Repositories unterscheiden sich in den Jahren 2015 und 2014. Die Kriterien werden nämlich zunehmend komplexer, analog zu den realen Gegebenheiten. In der Folge werden auf die Kriterien aus dem Jahr 2015 eingegangen. Der untenstehenden Grafik kann entnommen werden, dass die Kriterien in fünf Kategorien zugeordnet werden. Diese Kategorien enthalten unterschiedliche maximale Punktezahlen.
+![image](https://github.com/nathaliewic/lerntagebuch/assets/160014832/3ecd513d-c8a9-40a4-b021-a36f1288e694)
 
-## VuFind
-![image](https://github.com/nathaliewic/lerntagebuch/assets/160014832/a5f81d48-b219-4b15-8e17-a5800d719b36)
+Die Kriterien zu Open Access sind einerseits, dass den Angehörigen der Institution (Forschenden) ein Budget für Open Access Publikationen angeboten wird. Darüber hinaus erhöht sich die Punktezahl, wenn die Institution Mitglied der Confederation of Open Access Repositories (COAR e. V.) oder diesbezüglich nationalen Organisationen ist. Ein Beispiel hierfür sind CNI und DINI. Ausserdem wird als positiv bewertet, wenn die Institution die Berlin Declaration unterzeichnet hat und bei den Unterzeichnern auch aufgeführt wird. 
+Bezüglich der Usability wurde untersucht, ob eine englische Benutzeroberfläche vorhanden ist. Ausserdem wird das Vorhandensein einer einfachen Suche, sowie einer erweiterten Suche positiv bewertet. Hinzukommend soll das Browsing ermöglicht werden indem Institute, Autoren, Fakultäten etc. in Sammlungen verfügbar gemacht werden. Darüberhinaus sollten die Kontaktinformationen ersichtlich und eine Sitemap vorhanden sein.
+Zu den Services wird gezählt, dass ein Hinweis zur Zitation gemacht wird. Punkte werden ausserdem vergeben, wenn eine ‘standardized usage statistics’ bzw. eine ‘non-stanrdardized usage statistics’ implementiert ist. Des Weiteren wird darauf geachtet, ob zusätzliches Material verlinkt wird, ein bibliographischer Export möglich ist, ob Soziale Netzwerke verlinkt werden, ein RSS feed vorhanden ist. Schliesslich kam man zum Schluss dass das Kriterium zum Deckblatt und dem mobilen Format nicht effektiv waren, da diese beiden von allen Institutionen umgesetzt wurden. Mit Deckblatt ist gemeint, dass beim PDF zunächst eine Seite hinzugefügt wird, bei der Daten zur Institution, etc. gemacht werden. 
+Insgesamt am meisten Punkte können in der Kategorie der Metadaten geholt werden. Unter Metadaten werden die folgenden Punkte berücksichtigt:
+-	Maschinenlesbare rechliche Hinweise
+-	ID des Autors
+-	Hinweise zur Finanzierung
+-	Open access set (Erklärung siehe Bild)
+![image](https://github.com/nathaliewic/lerntagebuch/assets/160014832/fdee4f4b-3eb6-464c-b775-01072bb75a12)
 
-Eine Benutzeroberfläche, welche Solr im Backend nutzt, ist VuFind. VuFind ist ein Disvery-System das für Bibliotheken entwickelt wurde. Vufind ist eine Open Source Software und eine Alternative zu kommerziellen Lösungen wie Ex Libris Primo. Ex Libris Primo ist insofern ein guter Vergleich, als dass Primo auch auf Solr basiert.
-## Vergleich Solr und VuFind
-In der Übung während der Vorlesung haben wir VuFind und Solr einander gegenübergestellt. Diese Ergebnisse möchte ich kurz aufgreifen:
--	Wenn man bei VuFind zu tippen beginnt, werden bereits mögliche Suchen vorgeschlagen. Dies verlang eine hohe Performance des Systems, da während des Tippens in kurzer Zeit Vorschläge gemacht werden müssen. Wenn diese Vorschläge zu langsam erscheinen, haben sie keinen Nutzen mehr. 
--	Mit VuFind werden einige Links klickbar. Diese Links können intern von VuFind verlinken oder auch nach ausserhalb führen. 
--	VuFind ermöglicht verschiedene Zusatzfunktionen im Vergleich mit Solr. Mit Vufind können beispielsweise Darstellungen der Datensätze gedruckt oder als E-Mail versendet werden (vergl. untenstehendes Bild).
--	Die Benutzeroberfläche (VuFind) ermöglicht die Darstellung der Daten in verschiedene Sprache. Mit der Einstellung der Sprache werden gewisse Daten (bspw. das Format) in die entsprechende Sprache übersetzt. 
-Die Unterschiede lassen sich darin begründen, dass die beiden Software unterschiedliche Zielgruppen besitzen: Während dem Solr intern von Administratoren genutzt wird, ist VuFind als Benutzeroberfläche an die Endnutzende gerichtet. In untenstehenden Bildern ist dies nochmals ersichtlich. Es ist erkennbar, dass für Solr (erstes Bild) ein gewisses Know-How vorausgesetzt wird. VuFind hingegen setzt kein Vorwissen zum Retrieval voraus. Die einfache Suche gestaltet sich sehr leicht analog zu google. VuFind verfügt aber auch über eine erweiterte Suche und über die Suche in spezifischen Feldern. 
+ 
+-	Datum (gemäss Dublin Core)
+-	Sprache (gemäss Dublin Core)
+-	Version
+-	Schlagworte
+-	Abstract
+-	Name des Autors (gemäss Dublin Core)
+-	Titel (gemäss Dublin Core)
+-	Typ (gemäss Dublin Core)
+-	Identifier (gemäss Dublin Core)
+-	Klassifizierung (DDC o.ä.)
+Die letzte Kategorie beschäftigt sich mit der Kompatibilität. Im untenstehenden Bild werden die unterschiedlichen Aspekte dargestellt:
 
-![image](https://github.com/nathaliewic/lerntagebuch/assets/160014832/067aa682-33cd-4eed-bae8-c93efdc1c82d)
+ ![image](https://github.com/nathaliewic/lerntagebuch/assets/160014832/d21ae74c-d9ca-48da-8567-ab518aceabb6)
 
-![image](https://github.com/nathaliewic/lerntagebuch/assets/160014832/1c60efcd-7b7c-4b13-8fe1-96134a1752cc)
-  
+Hierbei möchte ich lediglich auf einige Ausgewählte Aspekte eingehen. Zum einen die Lizenz – diese wird als besonders wichtig erachtet (5 Punkte), da es ja darum gehen soll, die Forschung, mit einer entsprechenden Lizenz, öffentlich zugänglich zu machen. Zum Anderen möchte ich XML hervorheben, da XML [auch schon Teil der bisherigen Vorlesungen](https://nathaliewic.github.io/lerntagebuch/2024/02/27/Funktion-und-Aufbau-von-Bibliothekssystemen.html) war. Es wird hierbei gefordert, dass die Rückmeldungen des OAI Oberfläche, ‘well formed’ sind. 
 
-## Eigene Erfahrungen - Vergleich zu Exlibris Primo 
-Abschliessend möchte ich noch einen kurzen Blick auf Ex Libris Primo werfen. Untenstehend ein Bild der Suchoberfläche des Aargauer Bibliotheksnetzes:  
-![image](https://github.com/nathaliewic/lerntagebuch/assets/160014832/69c1bbdc-e056-4bd4-9bb5-4537445e9795)
+## Quellen:
+https://web.archive.org/web/20160110005003/http:/repositoryranking.org/
+https://web.archive.org/web/20160128164318/http:/repositoryranking.org/metric/
+## Weitere Informationen:
+https://dini.de/dienste-projekte/projekte/oarr
 
-Wie ersichtlich wird, ist die Suchoberfläche recht ähnlich zu VuFind. Auch die Möglichkeiten der beiden Software sind sehr ähnlich.  
 
-# Quellen:
-https://www.exigo.ch/produkte/extras/solr
-https://pad.gwdg.de/HW9D520ORJu79RoIEueNCw#
 
