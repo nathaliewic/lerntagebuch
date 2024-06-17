@@ -1,10 +1,10 @@
 ---
-title: "9 Suchmaschinen und Discovery-Systeme II"
+title: "10 Suchmaschinen und Discovery-Systeme II"
 date: 2024-05-28
 ---
 
 # Liebes Tagebuch
-In dieser Vorlesung haben wir uns mit der Datenintegration und der Konfiguration von VuFind beschäftigt. In diesem Blogbeitrag möchte ich auf die Übungen, die wir in der Vorlesung gemacht haben, eingehen. Mit der Dateintegration sind also verschiedene Dinge zusammengekommen: Die Daten aus Koha, ArchivesSpace und DSpace haben wir nach VuFind integriert. 
+in dieser Vorlesung haben wir uns mit der Datenintegration und der Konfiguration von VuFind beschäftigt. In diesem Blogbeitrag möchte ich auf die Übungen, die wir in der Vorlesung gemacht haben, eingehen. Mit der Dateintegration sind also verschiedene Dinge zusammengekommen: Die Daten aus Koha, ArchivesSpace und DSpace haben wir nach VuFind integriert. 
 # Übung 1
 Wie bereits angetönt sollten wir in der 1. Übung die Daten von Koha, ArchivesSpace und DSpace nach VUfind importieren. Der Import der Daten von Koha und OpenRefine hat ohne Probleme funktioniert. Die Umbenennung der Institution hat zuerst jedoch nicht funktioniert, da wir vergessen haben die Zeile auszukommentieren. Als wir das Problem erkannt haben und korrigieren konnten, hat es dann funktioniert. In der Besprechung in der Klasse kam heraus, dass dies oftmals ein Fehler ist, der gemacht wird.  
 Wie in der Auftragsstellung angekündigt wurde bei DSpace eine Fehlermeldung angezeigt. Die Fehlermeldung ist untenstehend ersichtlich. Der Fehler liegt darin, dass das Pflichtfeld ‘ID’ fehlt. Vufind liest marc21 daten und interpretiert die, und schickt die an solr. Solr (Link zur vorherigem Blogbeitrag) löst diese Fehlermeldung aus, da das seitens von Solr, wie erwähnt, ein Pflichtfeld ist.
