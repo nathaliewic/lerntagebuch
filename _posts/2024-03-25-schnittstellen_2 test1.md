@@ -1,6 +1,6 @@
 ---
 title: "5 Repository-Software für Publikationen und Forschungsdaten"
-date: 2024-04-19
+date: 2024-04-03
 ---
 
 # Liebes Tagebuch
