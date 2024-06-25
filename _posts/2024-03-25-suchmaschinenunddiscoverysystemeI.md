@@ -39,6 +39,7 @@ Die Unterschiede lassen sich darin begründen, dass die beiden Software untersch
   
 
 # Quellen:
-(https://www.exigo.ch/produkte/extras/solr)
-(https://pad.gwdg.de/HW9D520ORJu79RoIEueNCw#)
+<https://www.exigo.ch/produkte/extras/solr>
+
+<https://pad.gwdg.de/HW9D520ORJu79RoIEueNCw#>
 
