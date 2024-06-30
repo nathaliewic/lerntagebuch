@@ -31,11 +31,12 @@ Insgesamt am meisten Punkte können in der Kategorie der Metadaten geholt werden
 -	Klassifizierung (DDC o.ä.)
 
 *gemäss Dublin Core
+
 Die letzte Kategorie beschäftigt sich mit der Kompatibilität. Im untenstehenden Bild werden die unterschiedlichen Aspekte dargestellt:
 
  ![image](https://github.com/nathaliewic/lerntagebuch/assets/160014832/d21ae74c-d9ca-48da-8567-ab518aceabb6)
 
-Hierbei möchte ich lediglich auf die Lizenz eingehen, da diese als besonders wichtig erachtet (5 Punkte) wird. Der Grund dafür liegt, dass da es ja darum geht, die Forschung, mit einer entsprechenden Lizenz, öffentlich zugänglich zu machen.
+Hierbei möchte ich lediglich auf die Lizenz eingehen, da diese als besonders wichtig erachtet (5 Punkte) wird. Der Grund dafür liegt, dass da es ja darum geht, die Forschung, mit einer entsprechenden Lizenz öffentlich zugänglich zu machen.
 
 # Quellen:
 <https://web.archive.org/web/20160110005003/http:/repositoryranking.org/>
