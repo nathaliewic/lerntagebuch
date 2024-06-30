@@ -20,7 +20,7 @@ Untenstehend sind aktuelle Entwicklungen, die im Archivbereich zu verzeichnen si
 #  ArchivesSpace
 ArchivesSpace ist eine Open-Source Software. Es handelt sich um ein Archivinformationssystem. Der Webseite kann man entnehmen, dass es von Archivar*innen für Archive entwickelt wurde. ArchivesSpace ist eher auf Amerika ausgerichtet und profitiert von vielen zahlenden Mitgliedern. Dies ist ein Unterschied zu Koha (vergl. Blogeintrag zu [Koha](https://nathaliewic.github.io/lerntagebuch/2024/02/27/Funktion-und-Aufbau-von-Bibliothekssystemen.html). ArchivesSpace basiert auf verschiedenen Standards: DACS, ISAD(G)und ISAAR(CPF). Ausserdem werden der Import und Export von EAD-Daten, MARCXML-Daten und METS-Daten unterstützt. Beim Import gilt es zu beachten, dass selten ein verlustfreier Import gelingt. Es bedarf folglich einer Kontrolle der importierten Daten. Nichtsdestotrotz kann der Import Zeit sparen, da Daten von Hilfsmitarbeitenden ins System integriert werden können. 
 
-# Persönliche Erfahrungen und Verlgeiche
+# Persönliche Erfahrungen und Vergleiche
 In meiner Ausbildung beim Staatsarchiv Bern haben wir auch Daten nach scopeArchiv importiert. Konkret handelte es sich um Daten von den Aktenbildnern. Dabei handelte es sich meist um CSV-Dateien. Häufig waren es Listen in denen beschrieben war, welche Dokumente in den jeweiligen Ordnern/Schachteln zu finden sind. Dies hat die Erschliessungsarbeit enorm vereinfacht, da es oftmals schwierig ist, den genauen Kontext der Entstehung zu rekonstruieren.
 
 Unterschiede zu scopeArchiv, welche mir aufgefallen sind:
