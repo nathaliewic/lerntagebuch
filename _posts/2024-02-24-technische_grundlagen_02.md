@@ -1,5 +1,5 @@
 ---
-title: "2. Vorlesung - Technische Grundlagen 02"
+title: "2 Technische Grundlagen 02"
 date: 2024-02-14
 ---
 
