@@ -14,7 +14,8 @@ Untenstehend der kontrollierte Datensatz. Darin ist ersichtlich, dass das Feld 0
  ![image](https://github.com/nathaliewic/lerntagebuch/assets/160014832/82c01125-b081-4760-882d-e39a64977306)
 
 Das Ergebnis der 1. Übung konnte dann in den Institutionen gesehen werden. Wir haben für OpenRefine und Koha eine einzelne Institution erstellt, was in der Praxis vermutlich weniger praktikabel ist, weil in der Institution Koha nur ein Datensatz enthalten ist. Dadurch hätte es in diesem Fall vermutlich mehr Sinn gemacht nur eine Institution zu erstellen. 
- ![image](https://github.com/nathaliewic/lerntagebuch/assets/160014832/f624aa92-2254-45d4-aba1-241d093ceb5a)
+
+![image](https://github.com/nathaliewic/lerntagebuch/assets/160014832/f624aa92-2254-45d4-aba1-241d093ceb5a)
 
 
 # Übung 2
