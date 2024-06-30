@@ -1,5 +1,5 @@
 ---
-title: "4. Vorlesung - Archivsysteme"
+title: "4 Archivsysteme"
 date: 2024-03-12
 ---
 
