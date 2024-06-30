@@ -39,6 +39,6 @@ KOHA:
 
   # Quellen
   
-(https://arbido.ch/de/ausgaben-artikel/2013/linked-open-data-und-big-data/die-bibliographic-framework-initiative-bibframe-der-library-of-congress-offene-verkn%C3%BCpfte-datens%C3%A4tze)
+<https://arbido.ch/de/ausgaben-artikel/2013/linked-open-data-und-big-data/die-bibliographic-framework-initiative-bibframe-der-library-of-congress-offene-verkn%C3%BCpfte-datens%C3%A4tze>
 
-(https://www.dnb.de/DE/Professionell/Standardisierung/Standards/_content/rda.html)
+<https://www.dnb.de/DE/Professionell/Standardisierung/Standards/_content/rda.html>
