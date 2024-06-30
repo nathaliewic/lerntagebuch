@@ -1,5 +1,5 @@
 ---
-title: "1. Vorlesung - Technische Grundlagen 01"
+title: "1 Technische Grundlagen 01"
 date: 2024-02-14
 ---
 
