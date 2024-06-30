@@ -16,11 +16,11 @@ Dublin Core ist ein weiterer Metadatenstandard. Anders als MARC21 wird er aber a
 <img width="454" alt="image" src="https://github.com/nathaliewic/lerntagebuch/assets/160014832/1a0bea8a-2ba9-49ae-a524-44cc7025960d">
 
 # BIBFRAME
-MARC21 ist sehr stark medienzentriert. Dies ist aufgrund der stärkeren digitalen Vernetzung der Informationswelt nicht mehr zeitgemäss. Aus diesem Grund hat die Library of Congress (LOC) im Jahr 2011 das Datenmodell Bibliographic Framework Initiative (BIBFRAME) begründet. So sollen Katalogisate auch in Zukunft austauschbar sein und bibliografische Daten sinnvoll erfasst werden können [Quelle](https://arbido.ch/de/ausgaben-artikel/2013/linked-open-data-und-big-data/die-bibliographic-framework-initiative-bibframe-der-library-of-congress-offene-verkn%C3%BCpfte-datens%C3%A4tze).  
+MARC21 ist sehr stark medienzentriert. Dies ist aufgrund der stärkeren digitalen Vernetzung der Informationswelt nicht mehr zeitgemäss. Aus diesem Grund hat die Library of Congress (LOC) im Jahr 2011 das Datenmodell Bibliographic Framework Initiative (BIBFRAME) begründet. So sollen Katalogisate auch in Zukunft austauschbar sein und bibliografische Daten sinnvoll erfasst werden können.  
 BIBFRAME lehnt an die Funcitional Requirements for Bibliographic Records (FRBR) an. Aufgrund der begrenzten Zeichen des Blogbeitrags, gehe ich nicht noch mehr darauf ein.
 
 # Ressource Description and Access (RDA)
-Ein weiteres bibliografisches Regelwerk ist RDA. Darin wird sehr konkret beschrieben, wie die einzelnen Angaben der Medien erfasst werden sollen. Die deutsche Nationalbibliothek hat die Implementierung des Regelwerks in den Jahren 2012 bis 2016 im DACH-Raum geleitet [https://www.dnb.de/DE/Professionell/Standardisierung/Standards/_content/rda.html]. 
+Ein weiteres bibliografisches Regelwerk ist RDA. Darin wird sehr konkret beschrieben, wie die einzelnen Angaben der Medien erfasst werden sollen. Die deutsche Nationalbibliothek hat die Implementierung des Regelwerks in den Jahren 2012 bis 2016 im DACH-Raum geleitet. 
 
 # Bibliothekssoftware - KOHA 
 KOHA ist eine umfassende Bibliothekssoftware, die von ca. 600 Personen mitgestaltet wird. Über Open Hub lässt sich erkennen wie ‘gesund’ das Projekt ist. Bei kommerziellen Anbietern ist ein Indikator für die Popularität die Verkaufszahlen. Bei Open Source Projekten kann u.a. Open Hub Aufschluss darüber geben. Mit den Angaben aus Open Hub lässt sich schliessen, dass wie erwähnt 600 Personen am Projekt beteiligt sind und die Year-over-Year-Commits (Y-O-Y) konstant bleiben. Das deutet daraufhin, dass immer noch aktiv am Code gearbeitet wird und das Projekt entsprechend 'gesund' ist. 
@@ -32,4 +32,8 @@ Aus persönlichem Interesse habe ich die Katalogisierungsoberfläche von ALMA un
 ![image](https://github.com/nathaliewic/lerntagebuch/assets/160014832/271170a0-940e-40e1-9bba-16efdfd6e1a4)
 ![image](https://github.com/nathaliewic/lerntagebuch/assets/160014832/ad110d48-00f8-4e65-8b0e-a5ce01796951)
 
+  # Quellen
   
+  (https://arbido.ch/de/ausgaben-artikel/2013/linked-open-data-und-big-data/die-bibliographic-framework-initiative-bibframe-der-library-of-congress-offene-verkn%C3%BCpfte-datens%C3%A4tze)
+
+  (https://www.dnb.de/DE/Professionell/Standardisierung/Standards/_content/rda.html)
