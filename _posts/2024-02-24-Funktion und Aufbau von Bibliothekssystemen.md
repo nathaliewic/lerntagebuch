@@ -1,5 +1,5 @@
 ---
-title: "3. Vorlesung - Funktion und Aufbau von Bibliothekssystemen"
+title: "3 Funktion und Aufbau von Bibliothekssystemen"
 date: 2024-02-27
 ---
 
