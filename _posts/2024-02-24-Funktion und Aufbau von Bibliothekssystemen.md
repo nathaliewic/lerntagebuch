@@ -37,7 +37,7 @@ KOHA:
 
 ![image](https://github.com/nathaliewic/lerntagebuch/assets/160014832/ad110d48-00f8-4e65-8b0e-a5ce01796951)
 
-  # Quellen
+# Quellen
   
 <https://arbido.ch/de/ausgaben-artikel/2013/linked-open-data-und-big-data/die-bibliographic-framework-initiative-bibframe-der-library-of-congress-offene-verkn%C3%BCpfte-datens%C3%A4tze>
 
