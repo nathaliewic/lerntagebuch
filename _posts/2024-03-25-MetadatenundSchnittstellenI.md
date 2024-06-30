@@ -20,7 +20,7 @@ Mittels ‘Reverse Engineering’ haben wir uns mit den Feldern & der Syntax ver
 
 -	Mit ‘datafield’ wird das Feld ausgewiesen, das folglich befüllt wird. Nachher werden die beiden Indikatoren erwähnt. Der erste Indikator ‘1’ bedeutet, dass es sich um ein Nachname handelt.
 
--	In Unterfeld a wird die Zelle ‘Authors’ nach dem Zeichen "|" aufgeteilt. Der Erste Wert wird genommen und an dieser Stelle geschrieben. 
+-	In Unterfeld a wird die Zelle ‘Authors’ nach dem Zeichen, welches in der Klammer nach split aufgeführt wird, aufgeteilt. Der Erste Wert wird genommen und an dieser Stelle geschrieben. 
 -	Der Befehl ‘escape.xml’ stellt sicher, dass auch nicht XML konforme Zeichen korrekt ausgegeben werden. Ein Beispiel für ein solche Zeichen sind die Umlaute (ä, ö, ü).
 In untenstehendem Bild wird das Feld 700, für die weiteren Verantwortlichkeiten, dargestellt:
 ![image](https://github.com/nathaliewic/lerntagebuch/assets/160014832/5e338dae-d2a2-49cf-be78-30e2a3952a0e)
